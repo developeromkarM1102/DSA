@@ -1,5 +1,3 @@
-package Recursion;
-
 import java.util.Scanner;
 
 //understanding the concept of recursion
