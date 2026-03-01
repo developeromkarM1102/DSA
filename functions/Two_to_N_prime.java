@@ -8,7 +8,7 @@ public class Two_to_N_prime {
                     break;
                 }
             }
-            if (isPrime) {
+            if (isPrime) { 
                 System.out.println("\n " + n);
             }
     }
