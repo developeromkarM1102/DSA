@@ -1,5 +1,5 @@
 
-class Solution {
+class largest_in_array {
     public static int largest(int arr[]) {
         // code here
        int  largest =arr[0];
