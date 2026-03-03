@@ -1,16 +1,14 @@
+class largest_in_array{
+    public static void main(String[] args) {
+        int largest =0;
+        int arr[]={20,50,10,30,40};
 
-class largest_in_array {
-    public static int largest(int arr[]) {
-        // code here
-       int  largest =arr[0];
-       
-        for (int i=1;i<arr.length;i++)
-        {
-            if(arr[i]>largest)
-            {
-                largest=arr[i];
+        for(int i=0;i<arr.length;i++){
+            if(arr[i]>largest){
+                largest = arr[i];
             }
+            
         }
-        return largest;
+        System.out.println("\nLargest element in array is : " + largest);
     }
 }
