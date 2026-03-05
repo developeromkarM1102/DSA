@@ -5,7 +5,7 @@ public class reverseInteger {
 
         int reverse =0;
 
-        while (num>0) {
+        while (num>0) {  
 
             int lastdigit = num%10; // extract last digit
             num /=10;               //shift number right
