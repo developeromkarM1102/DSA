@@ -1,4 +1,5 @@
 public class leftRotateByOne {
+    //logic is to left rotate all elements by one position: move each element to the left and place the first element at the last position
     public static void main(String[] args) {
         int arr[]={1,2,3,4,5};
         int temp=arr[0];
