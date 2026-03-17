@@ -1,5 +1,5 @@
 public class n_C_rFormula {
-    
+    //done revision by rewriting code and understand concept 
     //formula : n! / (r!(n-r)!) = nCr
 
     int factorial(int n){
