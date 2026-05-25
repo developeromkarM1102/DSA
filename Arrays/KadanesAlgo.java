@@ -14,5 +14,6 @@ public class KadanesAlgo {
             }
         }
         System.out.println("\nMax sum is " + ms);
+        
     }
 }

@@ -11,3 +11,4 @@ public class Index_of_largest {
         System.out.println("\nIndex of an largest no is : " +largestIndex);
     }
 }
+

@@ -11,6 +11,8 @@ public class Index_of_smallest {
         }
         System.out.println("\nIndex of an smallest no is : " +SmallestIndex);
     }
+    
 }
+
 
 
