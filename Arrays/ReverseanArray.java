@@ -25,3 +25,30 @@ public class ReverseanArray {
        
     }
 }
+
+/*
+    Another method is start from the end of the array and print the elements until the start of the array is reached.
+
+    import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        // Write your code here
+
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+
+        int arr [] = new int [n];
+
+        for(int i=0;i<arr.length;i++){
+            arr[i] = sc.nextInt();   
+        }
+
+        for(int i=arr.length-1;i>=0;i--){
+            System.out.print(arr[i] + " ");
+        }
+    }
+}
+
+*/
