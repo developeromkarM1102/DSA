@@ -2,14 +2,19 @@ public class SubArray {
     public static void main(String[] args) {
         int arr[]={1,2,3,4,5};
         int n=5;
+        int sum = 0;
+        int Target = 9;
 
-        for(int start=0;start<n;start++){
-            for(int end=start;end<n;end++){
-                for(int i=start;i<=end;i++){
-                    System.out.print(arr[i] + " ");
+        // This is to find the subarray with the given target sum
+
+        for(int i=0;i<n;i++){
+            for(int j=i;j<n;j++){
+                sum += arr[j];
+                if(sum == Target){
+                    System.out.println("Target found at index: "+i+" to "+j);
                 }
-                System.out.println();
             }
+            sum = 0; 
         }
     }
 }
