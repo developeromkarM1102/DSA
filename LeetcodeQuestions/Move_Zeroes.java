@@ -3,7 +3,7 @@ package LeetcodeQuestions;
 public class Move_Zeroes {
 
     //Brute Force Approach
-    
+
     public void moveZeroes(int[] nums) {
         int n = nums.length;
 
