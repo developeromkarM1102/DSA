@@ -1,7 +1,7 @@
 package LeetcodeQuestions;
 
 public class RotateImage {
-    
+
     public void rotate(int[][] matrix) {
         
         int n = matrix.length;
@@ -24,11 +24,8 @@ public class RotateImage {
             while(left < right) {
 
                 int temp = matrix[i][left];
-                matrix[i][left] = matrix[i][right];
-                matrix[i][right] = temp;
-
-                left++;
-                right--;
+                matrix[i][left++] = matrix[i][right];
+                matrix[i][right--] = temp;
             }
         }
     }
