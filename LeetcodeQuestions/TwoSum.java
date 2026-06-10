@@ -4,7 +4,7 @@ public class TwoSum {
 
     public int[] twoSum(int[] nums, int target) {
 
-        //Brute force soln
+        //Brute force solution 
         
         int ans[]= new int[2];
         int n = nums.length;
