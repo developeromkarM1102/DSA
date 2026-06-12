@@ -3,7 +3,7 @@ package LeetcodeQuestions;
 public class nextPermutations {
 
     public void nextPermutation(int[] nums) {
-
+        //Optimal solution 
         int n = nums.length;
 
         int ind = -1;
