@@ -1,4 +1,4 @@
-
+package StringsQ;
 class Solution {
     static String toLower(String s) {
         // code here
