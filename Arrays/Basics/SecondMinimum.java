@@ -1,3 +1,4 @@
+package Basics;
 public class SecondMinimum {
     public static void main(String[] args) {
         

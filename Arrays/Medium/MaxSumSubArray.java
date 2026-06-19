@@ -1,3 +1,4 @@
+package Medium;
 public class MaxSumSubArray {
     //Brute Force solution
     public static void main(String[] args) {

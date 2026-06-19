@@ -1,3 +1,4 @@
+package Basics;
 public class ReverseanArray {
     void ReverseArray(int arr[],int sz){
         int start = 0; int end = sz-1;

@@ -1,3 +1,4 @@
+package Basics;
 public class Index_of_largest {
     public static void main(String[] args) {
         int arr[]={20,50,80,40,30};

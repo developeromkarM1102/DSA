@@ -1,3 +1,4 @@
+package Basics;
 public class Index_of_smallest {
 
     public static void main(String[] args) {

@@ -1,6 +1,7 @@
+package Easy;
 import java.util.Scanner;
 
-public class RotateArrayByK {
+public class LeftRotateArrayByK {
 
     int LeftRotateByK(int arr[], int k){
 
@@ -43,7 +44,7 @@ public class RotateArrayByK {
         System.out.println("Enter the value of k: ");
         int k = sc.nextInt();
 
-        RotateArrayByK obj = new RotateArrayByK();
+        LeftRotateArrayByK obj = new LeftRotateArrayByK();
         obj.LeftRotateByK(arr, k);
     }
 }

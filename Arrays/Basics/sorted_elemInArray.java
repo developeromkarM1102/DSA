@@ -1,3 +1,4 @@
+package Basics;
 import java.util.ArrayList;
 class sorted_elemInArray {
     public boolean isSorted(ArrayList<Integer> nums) {

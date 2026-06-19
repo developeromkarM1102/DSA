@@ -1,3 +1,4 @@
+package Basics;
 import java.util.Scanner;
 
 public class largest_of_negative {

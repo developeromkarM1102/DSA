@@ -1,3 +1,4 @@
+package Basics;
 public class smallest_in_array {
     public static void main(String[] args) {
         

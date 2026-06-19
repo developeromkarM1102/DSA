@@ -1,3 +1,4 @@
+package Basics;
 
 class Solution {
     int arraySum(int arr[]) {

@@ -1,3 +1,4 @@
+package Basics;
 public class leftRotateByOne {
     //logic is to left rotate all elements by one position: move each element to the left and place the first element at the last position
     public static void main(String[] args) {

@@ -1,3 +1,4 @@
+package Easy;
 //it will print the number which is not repeated in the array
 class Solution {
     public int singleNumber(int[] nums) {
