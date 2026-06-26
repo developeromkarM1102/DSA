@@ -10,7 +10,13 @@ public class BinarySearch {
         int e=n-1;
 
         while(s<=e){
-            int mid = (s+e)/2;
+
+            //int mid = (s+e)/2;
+
+            //using following mid to avoid constraint overflowing
+
+            int mid = s + (e - s) / 2;
+            
             if(nums[mid]==target){
                 ans = mid;
                 break;
