@@ -35,10 +35,11 @@ public class LowerUpperBound {
             int mid = start + (end-start) /2;
 
             if(arr[mid]<=target){
+                
+                ans = mid;
                 start = mid + 1;
             }
             else{
-                ans = mid;
                 end = mid - 1;
             }
         }
@@ -49,7 +50,7 @@ public class LowerUpperBound {
         int arr [] = {10,10,30,30,30,30,30,40,50};
         int target = 30;
         //int ans = getLowerBound(arr, target);
-        int ans = getUpperBound(arr,target);
+        int ans = getUpperBound(arr, target);
         System.out.println("ans : " + ans);
     }
 }
