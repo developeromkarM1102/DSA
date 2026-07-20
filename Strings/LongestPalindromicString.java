@@ -1,7 +1,7 @@
 package Strings;
 
-public class LongestpalindromicString{
-    
+public class LongestPalindromicString{
+
         public String longestPalindrome(String s) {
 
          if (s == null || s.length() < 2)
