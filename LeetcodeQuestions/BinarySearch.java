@@ -52,7 +52,7 @@ public class BinarySearch {
 
     }
 
-    public int search(int[] nums, int target) {
+    public int BS(int[] nums, int target) {
 
         int s = 0;
         int e = nums.length - 1;
