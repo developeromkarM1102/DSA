@@ -2,6 +2,8 @@ package LeetcodeQuestions;
 
 public class ReverseLinkedList {
 
+    /*{ Using Iteration
+
     public ListNode reverseList(ListNode head) {
         
         //pointing prev to null & curr to head
@@ -22,5 +24,29 @@ public class ReverseLinkedList {
             curr = forward;
         }
         return prev;
+    }*/
+
+    //using recursion
+
+    public ListNode solve(ListNode prev, ListNode curr){
+
+        if(curr == null){
+            return prev;
+        }
+        ListNode forward = curr.next;
+        curr.next = prev;
+        prev = curr;
+        curr = forward;
+
+        ListNode ans = solve(prev, curr);
+        return ans;
+    }
+
+    public ListNode reverseList(ListNode head){
+
+        ListNode prev = null;
+        ListNode curr = head;
+
+        return solve(prev,curr);
     }
 }
