@@ -10,7 +10,7 @@ public class RemoveDupFromLL {
 
         // using two pointer approach
         Node prev = head;
-        Node curr = head.next;
+        Node curr = head.next;9
 
         while (curr != null) {
 
