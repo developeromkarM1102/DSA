@@ -1,6 +1,7 @@
 
 package LinkedList;
 
+
 public class CircularLinkedList {
 
     static class Node {
