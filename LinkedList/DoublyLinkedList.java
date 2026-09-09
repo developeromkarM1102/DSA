@@ -1,5 +1,6 @@
 package LinkedList;
 
+//Revised Doubly Linked List 
 public class DoublyLinkedList {
     
     static class Node{
