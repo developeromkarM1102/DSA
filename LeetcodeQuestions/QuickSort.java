@@ -43,6 +43,7 @@ public class QuickSort {
         int j = e;
         
         while(i < correctPosition && j > correctPosition){
+            
             while(arr[i] <= pivotElement){
                 i++;
             }
