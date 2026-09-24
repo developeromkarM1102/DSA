@@ -22,6 +22,7 @@ public class LLCycle2 {
 
                     slow = slow.next;
                     fast = fast.next;
+                    
                 }
                 return slow;
             }

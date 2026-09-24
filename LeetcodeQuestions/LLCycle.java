@@ -14,6 +14,7 @@ public class LLCycle {
             fast = fast.next.next;
 
             if(fast == slow){
+                
                 return true;
             }
         }
